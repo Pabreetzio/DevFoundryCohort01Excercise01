@@ -3,16 +3,40 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeBook", "GradeBook\GradeBook.csproj", "{D6448451-EEE6-4999-A721-D8315F925675}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeBookTests", "GradeBookTests\GradeBookTests.csproj", "{37871A01-F360-42FE-A40A-17E8EE90E990}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D6448451-EEE6-4999-A721-D8315F925675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6448451-EEE6-4999-A721-D8315F925675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6448451-EEE6-4999-A721-D8315F925675}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{D6448451-EEE6-4999-A721-D8315F925675}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D6448451-EEE6-4999-A721-D8315F925675}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{D6448451-EEE6-4999-A721-D8315F925675}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6448451-EEE6-4999-A721-D8315F925675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6448451-EEE6-4999-A721-D8315F925675}.Release|ARM.ActiveCfg = Release|Any CPU
+		{D6448451-EEE6-4999-A721-D8315F925675}.Release|x64.ActiveCfg = Release|Any CPU
+		{D6448451-EEE6-4999-A721-D8315F925675}.Release|x86.ActiveCfg = Release|Any CPU
+		{37871A01-F360-42FE-A40A-17E8EE90E990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37871A01-F360-42FE-A40A-17E8EE90E990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37871A01-F360-42FE-A40A-17E8EE90E990}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{37871A01-F360-42FE-A40A-17E8EE90E990}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{37871A01-F360-42FE-A40A-17E8EE90E990}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{37871A01-F360-42FE-A40A-17E8EE90E990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37871A01-F360-42FE-A40A-17E8EE90E990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37871A01-F360-42FE-A40A-17E8EE90E990}.Release|ARM.ActiveCfg = Release|Any CPU
+		{37871A01-F360-42FE-A40A-17E8EE90E990}.Release|x64.ActiveCfg = Release|Any CPU
+		{37871A01-F360-42FE-A40A-17E8EE90E990}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

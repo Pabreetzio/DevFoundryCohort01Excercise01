@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>fedd07f0-79e4-43c2-ba8a-19a7e54306b0</ProjectGuid>
+    <ProjectGuid>{37871A01-F360-42FE-A40A-17E8EE90E990}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GradeBookTests</RootNamespace>
@@ -50,8 +50,15 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="EnumerationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RubricTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GradeBook\GradeBook.csproj">
+      <Project>{d6448451-eee6-4999-a721-d8315f925675}</Project>
+      <Name>GradeBook</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

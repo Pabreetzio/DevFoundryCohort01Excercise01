@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace GradeBook
 {
-    public class Class1
+    public interface Assessment
     {
+        AssessmentType Type();
+        int Id();        
     }
 }

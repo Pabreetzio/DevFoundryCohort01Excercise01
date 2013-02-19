@@ -14,5 +14,10 @@ namespace GradeBookTests
             Assert.AreEqual(2, AssessmentType.Test.GetHashCode());
             Assert.AreEqual(3, AssessmentType.Final.GetHashCode());
         }
+        [TestMethod]
+        public void TestAssessmentToString()
+        {
+            Assert.AreEqual("Quiz", AssessmentType.Quiz.ToString());
+        }
     }
 }

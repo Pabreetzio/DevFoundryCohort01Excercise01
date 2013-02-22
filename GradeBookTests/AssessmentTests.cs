@@ -8,28 +8,10 @@ namespace GradeBookTests
     public class AssessmentTests
     {
         [TestMethod]
-        public void CreateAssessmentTest()
+        public void CanCreateAnAssessment()
         {
-            Assessment Test1 = new Assessment(AssessmentType.Test);
-            Assert.AreEqual(AssessmentType.Test, Test1.Type);
+            Assessment keithsClarificationQuestionaire = new Assessment() {Master = new AssessmentMaster(AssessmentType.PopQuiz), Result = 80 };
+            Assert.AreEqual(80, keithsClarificationQuestionaire.Result);
         }
-
-        [TestMethod]
-        public void UnnammedPopQuizName()
-        {
-            Assessment PopQuiz1 = new Assessment(AssessmentType.PopQuiz);
-            Assert.AreEqual("Unnamed PopQuiz 2", PopQuiz1.Name);
-        }
-
-        //TODO: Add test for ID
-
-        [TestMethod]
-        public void CreateAssessmentTestWithName()
-        {
-            string nameOfQuiz = "Biology of Coleoptera";
-            Assessment Quiz1 = new Assessment(AssessmentType.Test, nameOfQuiz);
-            Assert.AreEqual(nameOfQuiz, Quiz1.Name);
-        }
-
     }
 }
